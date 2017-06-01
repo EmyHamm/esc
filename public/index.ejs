@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Emyesc</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The person portfolio of the UI/UX and graphic designer Emily Hamm">
+        <meta name="keywords" content="artist graphics design UI/UX Emily Hamm designer">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Amazing UI/UX and graphic designs by Emily Hamm">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:description" content="Amazing UI/UX and graphic designs by Emily Hamm">
+        <meta name="twitter:title" content="Modern, Custom for any business">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.2/baguetteBox.min.css">
+        <link rel="stylesheet" href="https://d3bvaiw0y065lc.cloudfront.net/main.min.css">
+
+        <style>
+            .landing-header {
+                display: flex;
+                height: 100vh;
+                background: #654d96;
+                background: linear-gradient(to left, #654d96 25%, #944f8c 60%, #e46884 100%);
+            }
+            .landing-header .wrapper {
+                width: auto;
+                padding-top: 20%;
+                margin: 0 35px;
+            }
+            .landing-header img {
+                height: 100%;
+                width: 100%;
+                display: none;
+            }
+            .landing-header .header-overlay {
+                padding-top: 100px;
+                text-align: center;
+            }
+            .landing-header h1 {
+                color: #f3f2f1;
+                font-size: 48px;
+                margin-bottom: 30px;
+            }
+            .landing-header p {
+                width: 80%;
+                margin: 0 auto;
+                font-size: 23px;
+                line-height: 35px;
+                color: #dedede;
+            }
+            .landing-header-contact {
+                height: 50px;
+                width: 180px;
+                margin-top: 100px;
+                color: #f3f2f1;
+                background-color: rgba(110, 238, 215, 0.65);
+                box-shadow: inset 0 -2px 0 rgba(10, 13, 25, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.07),
+                0 1px 1px rgba(10, 13, 25, 0.5);
+                font-family: 'Source Sans Pro';
+                font-weight: 400;
+                font-size: 18px;
+                text-transform: uppercase;
+                letter-spacing: 1.7px;
+            }
+
+            @media screen and (min-width: 950px) {
+                .landing-header {
+                    padding-top: 150px;
+                }
+                .landing-header img {
+                    display: block;
+                }
+                .landing-header .header-overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    padding-top: 150px;
+                }
+                .landing-header h1 {
+                    font-size: 63px;
+                    margin-bottom: 35px;
+                }
+                .landing-header p {
+                    width: 70%;
+                }
+                .landing-header-contact {
+                    margin-top: 175px;
+                }
+            }
+
+            @media screen and (min-width: 1350px) {
+                .landing-header h1 {
+                    margin-bottom: 50px;
+                }
+                .landing-header p {
+                    font-size: 24px;
+                    line-height: 40px;
+                    width: 50%;
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <% include ./views/shared/nav %>
+        <main class='main-content-container'>
+            <header class='landing-header'>
+                <div class='wrapper standard'>
+                   <img src='https://d3bvaiw0y065lc.cloudfront.net/landing/header.png' alt="Background">
+                    <div class='header-overlay'>
+                        <h1>Hi! I'm Emy</h1>
+                        <p>I'm a UI/UX Designer and Developer who focuses on marketing and avertising. What that means is that I design and create awesome experiences for the web and for your customers</p>
+
+                        <button type="button" class="landing-header-contact contact-trigger">
+                            <span>Get in Touch</span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <section class="landing-works-container">
+                <div class="wrapper standard">
+                    <div class="works-list">
+                        <figure class="single-work">
+                            <a href="https://d3bvaiw0y065lc.cloudfront.net/landing/dagga.webp">
+                                <img src="https://d3bvaiw0y065lc.cloudfront.net/landing/dagga.webp" alt="Daga Bag Design" class="resizable-image">
+                            </a>
+                        </figure>
+
+                        <figure class="single-work">
+                            <a href="https://d3bvaiw0y065lc.cloudfront.net/landing/kava.webp">
+                                <img src="https://d3bvaiw0y065lc.cloudfront.net/landing/kava.webp" alt="Kava Bag Design" class="resizable-image">
+                            </a>
+                        </figure>
+
+                        <figure class="single-work">
+                            <a href="https://d3bvaiw0y065lc.cloudfront.net/landing/yaas.webp">
+                                <img src="https://d3bvaiw0y065lc.cloudfront.net/landing/yaas.webp" alt="Yaaas Bag Design" class="resizable-image">
+                            </a>
+                        </figure>
+
+                        <figure class="single-work">
+                            <a href="https://d3bvaiw0y065lc.cloudfront.net/landing/escape-evolution-full.webp">
+                                <img src="https://d3bvaiw0y065lc.cloudfront.net/landing/escape-evolution-full.webp" alt="Escape Evolution Background" class="resizable-image">
+                            </a>
+                        </figure>
+
+                        <figure class="single-work">
+                            <a href="https://d3bvaiw0y065lc.cloudfront.net/landing/yaas2.webp">
+                                <img src="https://d3bvaiw0y065lc.cloudfront.net/landing/yaas2.webp" alt="Yaaas Bag Design 2" class="resizable-image">
+                            </a>
+                        </figure>
+
+                        <figure class="single-work">
+                            <a href="https://d3bvaiw0y065lc.cloudfront.net/landing/escape-evolution-logo.webp">
+                                <img src="https://d3bvaiw0y065lc.cloudfront.net/landing/escape-evolution-logo.webp" alt="Escape Evolution Logo" class="resizable-image">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <section class="landing-contact-container">
+                <div class="contact-wrapper">
+                    <form name="contact-form">
+                        <div class="form-input">
+                            <input type="text" name="name" class="form-input" id="contact-name">
+                            <label for="contact-name">Name</label>
+                            <p class="error-message">
+                                Sorry, I need your name!
+                            </p>
+                        </div>
+
+                        <div class="form-input form-email">
+                            <input type="email" name="email" class="form-input" id="contact-email">
+                            <label for="contact-email">Email</label>
+                            <p class="error-message">
+                                Sorry, please enter a valid email!
+                            </p>
+                        </div>
+
+                        <div class="form-input form-phone">
+                            <input type="phone" name="phone" class="form-input" id="contact-phone">
+                            <label for="contact-phone">Phone</label>
+                            <p class="error-message">
+                                Please enter your number XXX XXX XXXX
+                            </p>
+                        </div>
+
+                        <div class="form-input">
+                            <textarea name="message" class="form-input input-textarea" id="contact-message"></textarea>
+                            <label for="contact-message">Message</label>
+                            <p class="error-message">
+                                I need to know what you want to say!
+                            </p>
+                        </div>
+
+                        <div class="form-submit">
+                            <button type="button" class="form-submit"> 
+                                <span>HMU, nigga</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section> 
+        </main>
+        <% include ./views/notifications %>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.2/baguetteBox.min.js"></script>
+       <!-- <script src='https://d3bvaiw0y065lc.cloudfront.net/main.build.js'></script> -->
+       <script src="./main.build.js"></script>
+    </body>
+</html>

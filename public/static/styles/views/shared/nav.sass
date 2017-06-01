@@ -1,0 +1,42 @@
+.nav
+    display: none
+
+
+
+@media screen and (min-width: 1000px)
+    .nav
+        display: flex
+        align-items: stretch
+        position: absolute
+        top: 0
+        left: 0
+        height: 70px
+        width: 100%
+        padding: 0 30px
+        background: transparent
+        z-index: 5
+
+    .nav-left
+        display: flex
+        flex: 1 0 0
+        align-items: center
+        justify-content: flex-start
+
+    .nav-right
+        display: flex
+        flex: 1 0 0
+        align-items: center
+        justify-content: flex-end
+
+    .nav-item
+        display: flex
+        align-items: center
+        justify-content: center
+        padding: 10px 20px
+
+        button
+            color: #f3f2f1
+            font-size: 20px
+
+    .bottom-nav
+        display: none

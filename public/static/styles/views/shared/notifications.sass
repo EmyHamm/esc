@@ -1,0 +1,66 @@
+#contact-success,
+#contact-failure,
+#contact-error,
+    display: none
+
+.notification-container
+    max-width: 98%
+    z-index: 999
+
+    &.shown
+        .notification
+            opacity: 1
+            translateX(0)
+
+.notification
+    display: flex
+    align-items: center
+    min-height: 62px
+    margin-bottom: 12px
+    padding: 8px 8px 8px 15px
+    background: #fff
+    border-radius: 3px
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.1), 0 2px 15px 0 rgba(0,0,0,0.1)
+    opacity: 0
+    translateX(100%)
+    transition: all .5s cubic-bezier(0.5, -0.5, 0.3, 1.4), opacity .5s ease-out
+
+    &.success
+        border-left: 3px solid #37bf5b
+
+        span
+            color: #37bf5b
+
+    &.danger
+        border-left: 3px solid #bf3757
+
+        span
+            color: #bf3757
+
+    &.warning
+        border-left: 3px solid #fd4f00
+
+        span
+            color: #fd4000
+
+    span
+        font-size: 22px
+        margin-right: 18px
+
+.notification-right
+    display: flex
+    flex-direction: column
+    flex: 1
+
+.notification-title
+    letter-spacing: 2px
+    font-size: 18px
+    color: #3f4c5b
+    padding: 10px
+    margin-bottom: 8px
+
+.notification-text
+    font-size: 14px
+    letter-spacing: 1px
+    padding: 5px 12px
+    color: darken(#98b3bb, 20%)
